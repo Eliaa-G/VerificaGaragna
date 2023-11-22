@@ -7,3 +7,7 @@ FALSO
 convenzione in GIT?
 
 MAIN
+
+3) Come descriveresti il workflow dei comandi di GIT?
+
+GIT ADD -> GIT COMMIT -> GIT PUSH
