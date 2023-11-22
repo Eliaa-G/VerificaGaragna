@@ -50,3 +50,46 @@ Per visualizzare il ramo corrente usiamo il comando "git status".
 
 L'ingegneria del software è tutta quella parte dell'informatica legata alla progettazione, produzione, riutilizzo e manutenzione degli applicativi al fine di ridurre i costi di finanziamento del software e aumentarne la qualità.
 
+10) Spiega cosa è il ciclo di vita del software e le fasi in cui si suddivide
+
+Il ciclo di vita del software accompagna il software durante tutto il tempo che è attivo, dal momento in cui viene pensato, al momento in cui viene eliminato perché non più utilizzato. Le fasi del ciclo di vita del software sono 5 (alcune divise in sottofasi):
+
+- ANALISI
+Questa è sicuramente la parte più importante, bisogna analizzare molto dettagliatamente il progetto e assegnare ad ogni attore una parte di lavoro da eseguire. Senza un'analisi accuratamente documentata e dettagliata non si riuscirà a realizzare un progetto complesso che coinvolge differenti figure professionali.
+
+Abbiamo 6 sottofasi nella fase di analisi:
+-- Fattibilità
+Bisogna verificare se il progetto è realizzabile, sia dal punto di vista economico che tecnico.
+-- Requisiti
+Bisogna verificare i vincoli posti dal sistema.
+-- Interfaccia utente
+-- Architettura del sistema
+-- Dati da utilizzare
+-- Test da eseguire per verificare il corretto funzionamento del sistema.
+
+- PROGETTAZIONE
+Si analizza il progetto nei minimi dettagli, dai macro-argomenti fino all'implementazione di semplici variabili.
+Abbiamo 2 sottofasi nella fase di progettazione:
+-- Architettura di progetto
+Dove vengono definite le componenti software
+-- Disegno di dettaglio
+Dove viene descritto come le componenti software vengono implementate.
+
+- REALIZZAZIONE
+Si traduce il progetto in codice scritto in uno (o più) linguaggi di programmazione e si procede alla sua implementazione.
+
+- AVVIO IN PRODUZIONE
+Finiti i test interni, il software viene consegnato al cliente, e collaudato insieme ad esso. Dopodiché il software entra in produzione, ovvero quando il cliente inizia concretamente ad utilizzarlo.
+
+- MANUTENZIONE
+Per garantire l'efficienza nel tempo del software, bisogna mantenerlo aggiornato.
+Abbiamo tre tipi di manutenzione:
+
+-- Manutenzione correttiva
+Questa si verifica quando c'è un malfunzionamento all'interno del software, ed è necessario l'intervento della compagnia per ripararlo.
+
+-- Manutenzione adattiva
+Questa è dovuta a fattori esterni, il software viene modificato per adattarsi a delle mutazioni legislative, fiscali o sociali.
+
+-- Manutenzione evolutiva
+Questa è dovuta a esigenze del cliente, che richiede alla compagnia un aggiornamento del software, perché necessita di una funzione in più.
