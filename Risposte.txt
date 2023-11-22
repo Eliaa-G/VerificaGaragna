@@ -45,3 +45,8 @@ Per creare un nuovo branch usiamo il comando "git checkout -b [nome branch]"
 Per spostarsi tra i vari rami usiamo il comando "git checkout [nome branch]"
 Per unire le modifiche di due rami andiamo innanzitutto nel ramo in cui vogliamo unire le modifiche, successivamente usiamo il comando "git merge [nome branch da unire]" e le modifiche saranno applicate.
 Per visualizzare il ramo corrente usiamo il comando "git status".
+
+9) Spiega di cosa si occupa l’ingegneria del software
+
+L'ingegneria del software è tutta quella parte dell'informatica legata alla progettazione, produzione, riutilizzo e manutenzione degli applicativi al fine di ridurre i costi di finanziamento del software e aumentarne la qualità.
+
