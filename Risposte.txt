@@ -20,3 +20,8 @@ git log
 5) Scrivi il comando per effettuare il rollback ad una commit precedente
 
 git reset --hard [hash code della commit a cui si vuole ritornare]
+
+6) Scrivi due motivazioni per giustificare l’utilizzo di GIT
+
+- Tenere traccia delle modifiche fatte al codice grazie al branching
+- Poter lavorare più facilmente in team su un progetto complesso
