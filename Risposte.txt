@@ -33,3 +33,15 @@ git clone permette appunto di clonare una repository GIA' PRESENTE online, in lo
 git pull invece serve SOLO ad AGGIORNARE LE MODIFICHE della repository locale, prendendo quelle più recenti da quella presente su GitHub, questo è utile quando si lavora in più persone ad un progetto e si ha necessità di aggiornare le modifiche in locale.
 
 quindi git clone prende la repository online e la "duplica" in locale quando ancora non c'era, con git pull è necessario che in locale la repository sia già presente e inizializzata come repository git.
+
+8) Descrivi cosa sono i rami di sviluppo in GIT (branches). Spiega inoltre come si
+creano, come ci si sposta in un ramo esistente, come si uniscono le modifiche
+di un ramo in un altro e come vedere il ramo corrente, attenendoti ai comandi
+visti in classe.
+
+I rami di sviluppo (branch) sono dei rami del nostro progetto e servono per poter modificare il codice in modo sicuro, senza andare a modificare il codice stabile e ufficiale presente nel ramo principale (main). Modificando sempre il codice nel main si rischia di rovinare il codice che prima era funzionante, dovendo ricominciare da zero. Invece se il codice creato in un altro ramo non dovesse funzionare, possiamo cancellaro, oppure ricominciare da quello presente nel main, se invece dovesse funzionare, possiamo procedere a fondere (merge) il ramo secondario con quello principale, e dichiarare stabile il nostro codice.
+
+Per creare un nuovo branch usiamo il comando "git checkout -b [nome branch]"
+Per spostarsi tra i vari rami usiamo il comando "git checkout [nome branch]"
+Per unire le modifiche di due rami andiamo innanzitutto nel ramo in cui vogliamo unire le modifiche, successivamente usiamo il comando "git merge [nome branch da unire]" e le modifiche saranno applicate.
+Per visualizzare il ramo corrente usiamo il comando "git status".
