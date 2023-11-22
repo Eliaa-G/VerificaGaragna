@@ -11,3 +11,8 @@ MAIN
 3) Come descriveresti il workflow dei comandi di GIT?
 
 GIT ADD -> GIT COMMIT -> GIT PUSH
+
+4) Qual è il comando da utilizzare per vedere l’elenco di tutte le commit del
+branch in cui ci si trova e i loro hashcode?
+
+git log
