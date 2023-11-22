@@ -25,3 +25,11 @@ git reset --hard [hash code della commit a cui si vuole ritornare]
 
 - Tenere traccia delle modifiche fatte al codice grazie al branching
 - Poter lavorare più facilmente in team su un progetto complesso
+
+7) Spiega la differenza tra git clone e git pull.
+
+git clone permette appunto di clonare una repository GIA' PRESENTE online, in locale. Alla repository clonata in locale non servirà nè inizializzarla come repository e nemmeno collegare l'origine online dato che viene automaticamente fatto da GitHub.
+
+git pull invece serve SOLO ad AGGIORNARE LE MODIFICHE della repository locale, prendendo quelle più recenti da quella presente su GitHub, questo è utile quando si lavora in più persone ad un progetto e si ha necessità di aggiornare le modifiche in locale.
+
+quindi git clone prende la repository online e la "duplica" in locale quando ancora non c'era, con git pull è necessario che in locale la repository sia già presente e inizializzata come repository git.
